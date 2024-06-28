@@ -13,7 +13,7 @@
 ### Module and Exploit Loading
 
 - **[use <name>](https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfconsole#use-name)**: Load an exploit or module (e.g., `use windows/smb/psexec`).
-- **[use<number>]**: Load an exploit by using the index number displayed after the search command.
+- **use <number>**: Load an exploit by using the index number displayed after the search command.
 
 ### Setting Parameters
 
@@ -77,4 +77,4 @@
 - **[getsystem](https://github.com/rapid7/metasploit-framework/wiki/Meterpreter-Basic-Usage#getsystem)**: Attempt to elevate permissions to SYSTEM-level access.
 - **[shell](https://github.com/rapid7/metasploit-framework/wiki/Meterpreter-Basic-Usage#shell)**: Drop into an interactive shell with all available tokens.
 - **[execute -f <cmd.exe> -i](https://github.com/rapid7/metasploit-framework/wiki/Meterpreter-Basic-Usage#execute-f-cmdexe-i)**: Execute cmd.exe and interact with it.
-- **[execute -f <cmd.exe> -i
+- **[execute -f <cmd.exe> -i -H -t
