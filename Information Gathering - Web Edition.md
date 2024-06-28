@@ -1,3 +1,4 @@
+# INFORMATION GATHERING - WEB EDITION
 ## WHOIS
 
 - **[export TARGET="domain.tld"]**: Assign target to an environment variable.
