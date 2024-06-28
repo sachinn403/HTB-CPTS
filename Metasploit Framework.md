@@ -13,7 +13,7 @@
 ### Module and Exploit Loading
 
 - **[use <name>](https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfconsole#use-name)**: Load an exploit or module (e.g., `use windows/smb/psexec`).
-- **use <number>**: Load an exploit by using the index number displayed after the search command.
+- **[use<number>]**: Load an exploit by using the index number displayed after the search command.
 
 ### Setting Parameters
 
