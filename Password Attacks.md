@@ -16,6 +16,8 @@
 --- | ---
 **`cewl https://www.inlanefreight.com -d 4 -m 6 --lowercase -w inlane.wordlist`** | Uses cewl to generate a wordlist based on keywords present on a website.
 **`hashcat --force password.list -r custom.rule --stdout > mut_password.list`** | Uses Hashcat to generate a rule-based word list.
+**`./username-anarchy -i /path/to/listoffirstandlastnames.txt`** | Uses username-anarchy tool in conjunction with a pre-made list of first and last names to generate a list of potential usernames.
+**`curl -s https://fileinfo.com/filetypes/compressed | html2text | awk '{print tolower($1)}' | grep "\." | tee -a compressed_ext.txt`** | Uses Linux-based commands curl, awk, grep and tee to download a list of file extensions to be used in searching for files that could contain passwords.
 
 ## **Remote Password Attacks**
 
@@ -60,11 +62,18 @@
 **`cat /etc/crontab`** | Uses Linux-based cat command to view the contents of crontab in search for credentials.
 **`ls -la /etc/cron.*/`** | Uses Linux-based ls -la command to list all files that start with cron contained in the etc directory.
 **`grep -rnw "PRIVATE KEY" /* 2>/dev/null | grep ":1"`** | Uses Linux-based command grep to search the file system for key terms PRIVATE KEY to discover SSH keys.
-**`grep -rnw "PRIVATE KEY" /home/* 2>/dev/null | grep ":1"`** | Uses Linux-based grep command to search for the keywords PRIVATE KEY within files contained in a user's home directory.
-**`grep -rnw "ssh-rsa" /home/* 2>/dev/null | grep ":1"`** | Uses Linux-based grep command to search for keywords ssh-rsa within files contained in a user's home directory.
-**`tail -n5 /home/*/.bash*`** | Uses Linux-based tail command to search the through bash history files and output the last 5 lines.
-**`python3 mimipenguin.py`** | Runs Mimipenguin.py using python3.
-**`bash mimipenguin.sh`** | Runs Mimipenguin.sh using bash.
+**`grep -rnw "PRIVATE KEY" /home/* 2>/dev/null | grep ":1"`** | Uses Linux-based grep command to search for the keywords PRIVATE KEY within files contained in user home directories.
+**`ps -ef | grep -i "password"`** | Uses Linux-based ps command to search through running processes for the keyword password.
+**`ps -aux | grep root`** | Uses Linux-based ps command to search through running processes for processes running with root privileges.
+**`strace -s 10000 -p $(pgrep -u root sshd)`** | Uses Linux-based command strace to capture system calls made by sshd running with root privileges.
+**`for i in $(pgrep -u root);do echo -e "\nProcess: " $i; lsof -p $i | grep cwd;done`** | Script that runs lsof for processes running as root to search for working directories.
+
+## **Extracting Password Hashes**
+
+**Command** | **Description**
+--- | ---
+**`fcrackzip -u -v -D -p rockyou.txt backup.zip`** | Uses fcrackzip in conjunction with rockyou.txt to attempt to extract the password hash from the backup.zip file.
+**`mimipenguin.sh`** | Runs Mimipenguin.sh using bash.
 
 ## **Cracking Passwords**
 
