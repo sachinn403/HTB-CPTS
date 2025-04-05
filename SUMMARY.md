@@ -172,12 +172,6 @@
     * [Core Principles:](5-privilege-escalation/active-directory-enumeration-and-attacks/1.initial-enumeration/1.external-recon-and-enumeration-principles.md)
     * [2.Initial Enumeration of the Domain](5-privilege-escalation/active-directory-enumeration-and-attacks/1.initial-enumeration/2.initial-enumeration-of-the-domain.md)
     * [Active Directory Basic Command](5-privilege-escalation/active-directory-enumeration-and-attacks/1.initial-enumeration/active-directory-basic-command.md)
-  * [10.Breaking Down Boundaries](5-privilege-escalation/active-directory-enumeration-and-attacks/10.breaking-down-boundaries/README.md)
-    * [27.Attacking Domain Trusts - Cross-Forest Trust Abuse - from Windows](5-privilege-escalation/active-directory-enumeration-and-attacks/10.breaking-down-boundaries/27.attacking-domain-trusts-cross-forest-trust-abuse-from-windows.md)
-    * [28.Attacking Domain Trusts - Cross-Forest Trust Abuse - from Linux](5-privilege-escalation/active-directory-enumeration-and-attacks/10.breaking-down-boundaries/28.attacking-domain-trusts-cross-forest-trust-abuse-from-linux.md)
-  * [11.Defensive Considerations](5-privilege-escalation/active-directory-enumeration-and-attacks/11.defensive-considerations/README.md)
-    * [29.Hardening Active Directory](5-privilege-escalation/active-directory-enumeration-and-attacks/11.defensive-considerations/29.hardening-active-directory.md)
-    * [30.Additional AD Auditing Techniques](5-privilege-escalation/active-directory-enumeration-and-attacks/11.defensive-considerations/30.additional-ad-auditing-techniques.md)
   * [2.Sniffing out a Foothold](5-privilege-escalation/active-directory-enumeration-and-attacks/2.sniffing-out-a-foothold/README.md)
     * [3. LLMNR-NBT-NS Poisoning - from Linux](5-privilege-escalation/active-directory-enumeration-and-attacks/2.sniffing-out-a-foothold/3.-llmnr-nbt-ns-poisoning-from-linux.md)
     * [4.LLMNR-NBT-NS Poisoning - from Windows](5-privilege-escalation/active-directory-enumeration-and-attacks/2.sniffing-out-a-foothold/4.llmnr-nbt-ns-poisoning-from-windows.md)
@@ -212,6 +206,12 @@
     * [24.Domain Trusts Primer](5-privilege-escalation/active-directory-enumeration-and-attacks/9.why-so-trusting/24.domain-trusts-primer.md)
     * [25.Attacking Domain Trusts - Child - Parent Trusts - from Windows](5-privilege-escalation/active-directory-enumeration-and-attacks/9.why-so-trusting/25.attacking-domain-trusts-child-parent-trusts-from-windows.md)
     * [26. Attacking Domain Trusts - Child - Parent Trusts - from Linux](5-privilege-escalation/active-directory-enumeration-and-attacks/9.why-so-trusting/26.-attacking-domain-trusts-child-parent-trusts-from-linux.md)
+  * [10.Breaking Down Boundaries](5-privilege-escalation/active-directory-enumeration-and-attacks/10.breaking-down-boundaries/README.md)
+    * [27.Attacking Domain Trusts - Cross-Forest Trust Abuse - from Windows](5-privilege-escalation/active-directory-enumeration-and-attacks/10.breaking-down-boundaries/27.attacking-domain-trusts-cross-forest-trust-abuse-from-windows.md)
+    * [28.Attacking Domain Trusts - Cross-Forest Trust Abuse - from Linux](5-privilege-escalation/active-directory-enumeration-and-attacks/10.breaking-down-boundaries/28.attacking-domain-trusts-cross-forest-trust-abuse-from-linux.md)
+  * [11.Defensive Considerations](5-privilege-escalation/active-directory-enumeration-and-attacks/11.defensive-considerations/README.md)
+    * [29.Hardening Active Directory](5-privilege-escalation/active-directory-enumeration-and-attacks/11.defensive-considerations/29.hardening-active-directory.md)
+    * [30.Additional AD Auditing Techniques](5-privilege-escalation/active-directory-enumeration-and-attacks/11.defensive-considerations/30.additional-ad-auditing-techniques.md)
 
 ## 6️⃣ Post-Exploitation & Persistence
 
