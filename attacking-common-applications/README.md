@@ -1,2 +1,0 @@
-# Attacking Common Applications
-

@@ -1,2 +1,0 @@
-# Active Directory Enumeration & Attacks
-
