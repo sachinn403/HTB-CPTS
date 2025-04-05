@@ -1,12 +1,15 @@
 # Table of contents
 
+## Home
+
+* [About](README.md)
+
 ## 1️⃣ Reconnaissance & Enumeration
 
-* [Enumeration](README.md)
+* [Enumeration](<README (1).md>)
   * [Initial  Enumeration](1-reconnaissance-and-enumeration/enumeration/initial-enumeration.md)
 * [Nmap](1-reconnaissance-and-enumeration/nmap/README.md)
   * [Scan network With Nmap](1-reconnaissance-and-enumeration/nmap/scan-network-with-nmap.md)
-* [Page 1](1-reconnaissance-and-enumeration/page-1.md)
 
 ## 2️⃣ Initial Access & Exploitation
 
@@ -77,6 +80,7 @@
 * [Login Brute Forcing](4-authentication-and-credential-attacks/login-brute-forcing.md)
 * [Password Attacks](4-authentication-and-credential-attacks/password-attacks.md)
 * [Password Cracking](4-authentication-and-credential-attacks/password-cracking.md)
+* [Session Security](4-authentication-and-credential-attacks/session-security.md)
 
 ## 5️⃣ Privilege Escalation
 
@@ -235,8 +239,7 @@
 * [Ligolo-ng](7-lateral-movement-and-network-pivoting/ligolo-ng.md)
 * [Pivoting, Tunneling, and Port Forwarding](7-lateral-movement-and-network-pivoting/pivoting-tunneling-and-port-forwarding.md)
 
-## 8️⃣ Defense Evasion & Security Tips
+***
 
-* [Session Security Guide](8-defense-evasion-and-security-tips/session-security.md)
-* [Tips](8-defense-evasion-and-security-tips/tips/README.md)
-  * [CPTS Tips](8-defense-evasion-and-security-tips/tips/cpts-tips.md)
+* [Tips](tips/README.md)
+  * [CPTS Tips](tips/cpts-tips.md)
