@@ -7,7 +7,7 @@
 ## 1️⃣ Reconnaissance & Enumeration
 
 * [Enumeration](<README (1).md>)
-  * [Enum Cheklist](1-reconnaissance-and-enumeration/enumeration/enum-cheklist.md)
+  * [Enum Checklist](1-reconnaissance-and-enumeration/enumeration/enum-checklist.md)
   * [Initial  Enumeration](1-reconnaissance-and-enumeration/enumeration/initial-enumeration.md)
 * [Nmap](1-reconnaissance-and-enumeration/nmap/README.md)
   * [Scan network With Nmap](1-reconnaissance-and-enumeration/nmap/scan-network-with-nmap.md)
